@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body
+{
+  background-image: linear-gradient(rgb(150, 184, 248),pink,rgb(249, 233, 249));
+  background-repeat: no-repeat;
+  height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar
+{
+  background-color: darkblue;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+}
+.removeLine
+{
+  text-decoration: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.text
+{
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 4px 4px 3px white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.topWork
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.topWork-h1
+{
+  font-size: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 4px 3px 2px white;
+}
+.topWork-btn
+{
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to left,yellow,green,red);
+}
+.topWork-btn:hover
+{
+  background-image: radial-gradient(pink,white,blue);
+  color: black;
+}
+.tableContainer
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.tableHeading
+{
+  background-color: #17202A;
+  font-size: 25px;
+  color: #F1C40F;
+}
+.table
+{
+  width: 1250px;
+  height: 500px;
+  text-align: center;
+  font-weight: bold;
+  background-color: white;
+  /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
 }
